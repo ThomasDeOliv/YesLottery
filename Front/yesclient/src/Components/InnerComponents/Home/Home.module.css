@@ -1,0 +1,42 @@
+.homesection {
+    text-align: center;    
+    width: 100%;
+    min-height: 100%;
+}
+
+.homesection > div:nth-child(1) {
+    width: 100%;
+    padding: 5px;
+}
+
+.homesection > div:nth-child(2) {
+    background: linear-gradient(269.84deg, #00CDB4 0%, rgba(0, 205, 180, 0.4) 100%);
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homesection > div:nth-child(3) {
+    width: 100%;
+    padding: 5px;
+}
+
+.homesection > div:last-child > div {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homesection > div:last-child > div > div {
+    width: 100%;
+    height: 20px;
+}
+
+#counter{    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 4rem;
+    font-weight: bold;
+}

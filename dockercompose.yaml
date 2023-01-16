@@ -1,0 +1,18 @@
+version: '3.0'
+name: 'YES_Lottery'
+
+services:
+
+  YES_API_Service:
+    image: yes_api_service:latest
+    container_name: yes_api_service   
+    restart: always
+    ports:
+      - 5000:80
+      - 7899:443
+    build: 
+      context: ./Server
+      dockerfile: Yes.Server.Api/.dockerfile
+    environment:
+      - ASPNETCORE_URLS=http://+:80
+      - ASPNETCORE_ENVIRONMENT=Production

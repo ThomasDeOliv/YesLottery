@@ -1,0 +1,25 @@
+.rules{    
+    width: 100%;
+    min-height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rules > div {
+    padding: 20px;
+    background: linear-gradient(269.84deg, #00CDB4 0%, rgba(0, 205, 180, 0.4) 100%);
+}
+
+.rules > div > div{
+    margin: 70px;
+}
+
+.rules > div > div > div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rules > div > div > :last-child > ul {
+    display: block;
+    list-style: disc;
+}

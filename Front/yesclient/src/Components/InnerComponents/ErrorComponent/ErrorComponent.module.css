@@ -1,0 +1,15 @@
+.errorpage {
+    text-align: center;    
+    width: 100%;
+    min-height: 100%;
+}
+
+.errorpage > div:last-child {
+    width: 100%;
+    padding: 5px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(269.84deg, #00CDB4 0%, rgba(0, 205, 180, 0.4) 100%);
+}

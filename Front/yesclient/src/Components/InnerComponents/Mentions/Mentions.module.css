@@ -1,0 +1,27 @@
+.mentions{    
+    width: 100%;
+    min-height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mentions > div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(269.84deg, #00CDB4 0%, rgba(0, 205, 180, 0.4) 100%);
+}
+
+.mentions > div > div {   
+    margin: 15px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 50px;
+}
+
+.mentions > div > div > div {
+    padding: 7px;
+}
+
+.mentions > div > div > div > p {
+    line-height: 30px
+}

@@ -1,0 +1,56 @@
+.playsection{    
+    width: 100%;
+    min-height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.playsection > div {
+    padding: 20px;
+    background: linear-gradient(269.84deg, #00CDB4 0%, rgba(0, 205, 180, 0.4) 100%);
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+}
+
+.playsection > div > div:nth-child(3) {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 550px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.playsection > div > div:nth-child(4) > button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 300px;
+    border: 0;
+    border-radius: 7px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.playsection > div > div:nth-child(4) > button:first-child {
+    background-color: #FA8F89;
+}
+
+.numberButton {
+    background-color: #2D3047;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 5px auto;
+}
+
+.numberButton:hover{
+    cursor: pointer;
+    border : 5px solid #FFFFFF;;
+}
